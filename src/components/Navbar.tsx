@@ -1,5 +1,3 @@
-import { IoLanguage } from 'react-icons/io5';
-
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-white navbar-dark bg-success">
