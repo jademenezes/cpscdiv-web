@@ -5,12 +5,15 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App.tsx';
+import Layout from './components/Layout.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route index element={<App />}></Route>
+        <Route element={<Layout />}>
+          <Route path="/" element={<App />}></Route>
+        </Route>
       </Routes>
     </BrowserRouter>
   </StrictMode>
