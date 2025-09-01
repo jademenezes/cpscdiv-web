@@ -1,15 +1,21 @@
 @import '@fontsource/lexend';
-@import '@fontsource/public-sans/700.css';
+@import '@fontsource/public-sans';
 
 body {
   font-family: 'Lexend', sans-serif;
+  font-weight: 400;
 }
 
 h1,
 h2,
 h3 {
   font-family: 'Public Sans', sans-serif;
+  font-weight: 700;
   text-shadow: 2px 1px 1px lightgray;
+}
+
+h5.org-title {
+  font-weight: 500;
 }
 
 .navbar-white .nav-link {
@@ -38,4 +44,3 @@ h3 {
   height: auto;
   max-width: 100px;
 }
-

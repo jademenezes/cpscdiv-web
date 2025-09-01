@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App.tsx';
 import Layout from './components/Layout.tsx';
+import Organization from './pages/Organization.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -13,9 +14,9 @@ createRoot(document.getElementById('root')!).render(
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<App />}></Route>
+          <Route path="/organizacao" element={<Organization />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
   </StrictMode>
 );
-

@@ -1,0 +1,57 @@
+[
+  {
+    "column": 1,
+    "items": [
+      {
+        "title": "Coordenação Geral",
+        "staff": "Dra. Maria Helena Cariaga (GEPOSS/GEPESSCRITICO)"
+      },
+      {
+        "title": "Coordenação Adjunta",
+        "staff": "Dra. Mariléa Borges de Lima Salvador (GEPESSCRITICO)"
+      },
+      {
+        "title": "Presidente da Comissão organizadora",
+        "staff": "Maria Helena Cariaga (GEPOSS/GEPESSCRITICO)"
+      }
+    ]
+  },
+  {
+    "column": 2,
+    "items": [
+      {
+        "title": "Comissão Organizadora",
+        "staff": [
+          "Dr. André Luiz Augusto da Silva",
+          "Dr. Francisco Gonçalves Filho",
+          "Dra. Ingrid Karla Beserra",
+          "Dr. João Nunes da Silva",
+          "Dra. Josenice Ferreira Araujo",
+          "Dra. Juliana Biazze Feitosa",
+          "Dra. Layanna Giordana Bernardo Lima",
+          "Dr. Ladislau Ribeiro do Nascimento",
+          "Dra. Luciane Silva de Sousa",
+          "Dr. Manuel Mallardi",
+          "Dr. Marcio Bernardes de Carvalho",
+          "Dra. Maria José Antunes",
+          "Dra. Mariléa Borges Salvador",
+          "Dra. Rosemeri Birk",
+          "Dra. Rosemeire Santos",
+          "Dra. Silvia Regina da Silva Costa",
+          "Dr. Vanderlei Martini",
+          "Dr. Vicente Cabrera Calheiros"
+        ]
+      },
+      {
+        "title": "Equipe de Apoio Acadêmico",
+        "staff": [
+          "Geórgia Sávia Cunha Pessoa Cabral",
+          "Lucas Rodrigues Falchione",
+          "Maurício Curcino da Silva",
+          "Messias Pinheiro de Oliveira",
+          "Sandra de Oliveira Gomes"
+        ]
+      }
+    ]
+  }
+]
