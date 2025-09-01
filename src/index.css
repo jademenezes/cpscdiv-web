@@ -1,3 +1,17 @@
+@import '@fontsource/lexend';
+@import '@fontsource/public-sans/700.css';
+
+body {
+  font-family: 'Lexend', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Public Sans', sans-serif;
+  text-shadow: 2px 1px 1px lightgray;
+}
+
 .navbar-white .nav-link {
   color: white !important;
   color: rgba(255, 255, 255);
