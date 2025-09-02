@@ -71,11 +71,13 @@ h5.org-title {
 .img-frame {
   width: 100%;
   margin: 0 0 1rem 0;
+  height: 200px;
+  overflow: hidden;
 }
 
 .img-frame img {
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 8px 8px 0 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   object-fit: cover;
@@ -85,7 +87,7 @@ h5.org-title {
   padding: 1.5rem;
 }
 
-.custom-card-conten h4 {
+.custom-card-content h4 {
   margin-top: 0;
   margin-bottom: 1rem;
   color: #333;
@@ -111,12 +113,15 @@ h5.org-title {
     margin: 0;
     position: relative;
     grid-area: image;
+    height: 250px;
+    overflow: hidden;
   }
 
   .img-frame img {
     width: 100%;
+    height: 100%;
     border-radius: 8px;
-    object-fit: contain;
+    object-fit: cover;
     max-width: 350px;
     margin: 0 auto;
     display: block;
