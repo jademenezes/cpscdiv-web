@@ -1,0 +1,62 @@
+[
+  {
+    "date": "Dia 1",
+    "courses": [
+      {
+        "period": "Manhã - 8h",
+        "description": "Abertura do IV Colóquio de Pesquisa Social Crítico-dialética",
+        "teacher": "Dra. Maria Helena Cariaga"
+      },
+      {
+        "period": "Noite - 19h",
+        "description": "Abertura do II Colóquio Internacional de Pesquisa Social Crítico-dialética",
+        "teacher": "Dra. Mariléa Borges L. Salvador"
+      }
+    ]
+  },
+  {
+    "date": "Dia 2",
+    "courses": [
+      {
+        "period": "Manhã - 8h",
+        "description": "Abertura do IV Colóquio de Pesquisa Social Crítico-dialética",
+        "teacher": "Dra. Maria Helena Cariaga"
+      },
+      {
+        "period": "Noite - 19h",
+        "description": "Abertura do II Colóquio Internacional de Pesquisa Social Crítico-dialética",
+        "teacher": "Dra. Mariléa Borges L. Salvador"
+      }
+    ]
+  },
+  {
+    "date": "Dia 3",
+    "courses": [
+      {
+        "period": "Manhã - 8h",
+        "description": "Abertura do IV Colóquio de Pesquisa Social Crítico-dialética",
+        "teacher": "Dra. Maria Helena Cariaga"
+      },
+      {
+        "period": "Noite - 19h",
+        "description": "Abertura do II Colóquio Internacional de Pesquisa Social Crítico-dialética",
+        "teacher": "Dra. Mariléa Borges L. Salvador"
+      }
+    ]
+  },
+  {
+    "date": "Dia 4",
+    "courses": [
+      {
+        "period": "Manhã - 8h",
+        "description": "Abertura do IV Colóquio de Pesquisa Social Crítico-dialética",
+        "teacher": "Dra. Maria Helena Cariaga"
+      },
+      {
+        "period": "Noite - 19h",
+        "description": "Abertura do II Colóquio Internacional de Pesquisa Social Crítico-dialética",
+        "teacher": "Dra. Mariléa Borges L. Salvador"
+      }
+    ]
+  }
+]
