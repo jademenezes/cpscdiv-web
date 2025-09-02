@@ -1,6 +1,7 @@
 @import '@fontsource/lexend';
 @import '@fontsource/public-sans';
 
+/* Global styles */
 body {
   font-family: 'Lexend', sans-serif;
   font-weight: 400;
@@ -14,10 +15,15 @@ h3 {
   text-shadow: 2px 1px 1px lightgray;
 }
 
+h4 {
+  font-weight: 600;
+}
+
 h5.org-title {
   font-weight: 500;
 }
 
+/* navbar */
 .navbar-white .nav-link {
   color: white !important;
   color: rgba(255, 255, 255);
@@ -43,4 +49,149 @@ h5.org-title {
   width: 100%;
   height: auto;
   max-width: 100px;
+}
+
+/* about card component */
+
+.card-container {
+  position: relative;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.custom-card {
+  background: wheat;
+  border-radius: 8px;
+  padding: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.img-frame {
+  width: 100%;
+  margin: 0 0 1rem 0;
+}
+
+.img-frame img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+.custom-card-content {
+  padding: 1.5rem;
+}
+
+.custom-card-conten h4 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.custom-card-content p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Media queries */
+@media (min-width: 992px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: 'image card';
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+
+  .img-frame {
+    width: 100%;
+    margin: 0;
+    position: relative;
+    grid-area: image;
+  }
+
+  .img-frame img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: contain;
+    max-width: 350px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .custom-card {
+    margin: 2rem 0;
+    padding: 1.5rem 0.5rem;
+    grid-area: card;
+  }
+
+  .custom-card h4 {
+    margin-top: 0;
+  }
+
+  /* Zig-zag pattern for lg screens */
+  .card-container:nth-child(odd) {
+    grid-template-columns: 40% 60%;
+    grid-template-areas: 'image card';
+  }
+
+  .card-container:nth-child(odd) .img-frame {
+    justify-self: start;
+  }
+
+  .card-container:nth-child(odd) .custom-card {
+    margin-left: -2rem;
+    margin-right: 0;
+  }
+
+  .card-container:nth-child(even) {
+    grid-template-columns: 60% 40%;
+    grid-template-areas: 'card image';
+  }
+
+  .card-container:nth-child(even) .img-frame {
+    justify-self: end;
+    order: 2;
+  }
+
+  .card-container:nth-child(even) .custom-card {
+    margin-right: -2rem;
+    margin-left: 0;
+    order: 1;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-container {
+    padding: 0 2rem;
+  }
+
+  .card-container:nth-child(odd) .custom-card {
+    margin-left: -3rem;
+    padding-left: 3.5rem;
+  }
+
+  .card-container:nth-child(even) .custom-card {
+    margin-right: -3rem;
+    padding-right: 3.5rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .card-container {
+    padding: 0 2rem;
+  }
+
+  .card-container:nth-child(odd) .custom-card {
+    margin-left: -6rem;
+    padding-left: 2rem;
+  }
+
+  .card-container:nth-child(even) .custom-card {
+    margin-right: -6rem;
+    padding-right: 7rem;
+  }
 }
