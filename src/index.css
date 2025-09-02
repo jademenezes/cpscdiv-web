@@ -1,5 +1,16 @@
-@import '@fontsource/lexend';
-@import '@fontsource/public-sans';
+@import '@fontsource/lexend/100.css';
+@import '@fontsource/lexend/200.css';
+@import '@fontsource/lexend/300.css';
+@import '@fontsource/lexend/400.css';
+@import '@fontsource/lexend/500.css';
+@import '@fontsource/lexend/600.css';
+@import '@fontsource/lexend/700.css';
+@import '@fontsource/lexend/800.css';
+@import '@fontsource/lexend/900.css';
+@import '@fontsource/public-sans/400.css';
+@import '@fontsource/public-sans/500.css';
+@import '@fontsource/public-sans/600.css';
+@import '@fontsource/public-sans/700.css';
 
 /* Global styles */
 body {
@@ -199,4 +210,72 @@ h5.org-title {
     margin-right: -6rem;
     padding-right: 7rem;
   }
+}
+
+/* Programming Card */
+
+.prog-container {
+  background: rgba(139, 128, 249, 0.3);
+}
+
+.prog-card {
+  background: white;
+  border-radius: 12px;
+  padding: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.prog-card-container {
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.prog-card-content {
+  padding: 2rem 2rem 0 2rem;
+  text-align: center;
+  font-family: 'Lexend', sans-serif;
+}
+
+.prog-title {
+  text-align: center;
+}
+
+.prog-card-title {
+  text-align: center;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 600;
+}
+
+.prog-card-content .card-content-icon {
+  margin: -2px 0 0 7px;
+  color: #198754;
+}
+
+.prog-card-content .prog-card-text {
+  color: #666;
+  font-family: 'Lexend', sans-serif;
+}
+
+.prog-card-content .card-period {
+  font-weight: 600;
+}
+
+.prog-card-content .card-description {
+  font-weight: 200;
+  font-size: small;
+  font-family: 'Lexend', sans-serif;
+}
+
+.prog-card-content .card-teacher {
+  font-weight: 500;
+  font-size: small;
+}
+
+.hr-custom {
+  height: 2px;
+  opacity: 0.5;
+  color: black;
 }
