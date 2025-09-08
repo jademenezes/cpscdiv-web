@@ -1,10 +1,13 @@
 import Prog from './components/Prog';
+import Hero from './components/Hero';
 
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
-      <Prog></Prog>
+      <div className="home">
+        <Hero />
+        <Prog />
+      </div>
     </>
   );
 }

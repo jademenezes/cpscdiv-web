@@ -1,3 +1,6 @@
+import { Link } from 'react-router';
+import { HashLink } from 'react-router-hash-link';
+
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-white navbar-dark bg-success">
@@ -17,24 +20,27 @@ const Navbar = () => {
         >
           <ul className="navbar-nav gap-2">
             <li className="nav-item">
-              <a className="nav-link" href="/">
+              <Link className="nav-link" to="/">
                 Início
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/#schedule">
+              <HashLink className="nav-link" to="/#programacao">
                 Programação
-              </a>
+              </HashLink>
+              {/* <a className="nav-link" href="/#schedule">
+                Programação
+              </a> */}
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/sobre">
+              <Link className="nav-link" to="/sobre">
                 Sobre
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/organizacao">
+              <Link className="nav-link" to="/organizacao">
                 Organização
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="">

@@ -3,7 +3,7 @@ import ProgCard from './ProgCard';
 
 const Prog = () => {
   return (
-    <div className="prog-container py-3" id="schedule">
+    <div className="prog-container py-3" id="programacao">
       <div className="prog-title">
         <h3>Programação</h3>
       </div>
