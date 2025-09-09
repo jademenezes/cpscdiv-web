@@ -23,5 +23,9 @@ export const LanguageProvider = (props: { children: ReactNode }) => {
     changeLanguage,
   };
 
-  return <LanguageContext value={value}>{props.children}</LanguageContext>;
+  return (
+    <LanguageContext.Provider value={value}>
+      {props.children}
+    </LanguageContext.Provider>
+  );
 };
