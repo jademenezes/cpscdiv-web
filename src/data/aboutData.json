@@ -2,11 +2,11 @@
   {
     "title": "test",
     "content": "test2",
-    "image": "src/assets/imagem4.jpg"
+    "image": "images/imagem4.jpg"
   },
   {
     "title": "test title",
     "content": "test content",
-    "image": "src/assets/logoGeposs.jpg"
+    "image": "images/logoGeposs.jpg"
   }
 ]
