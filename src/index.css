@@ -109,8 +109,175 @@ h5.org-title {
   line-height: 1.6;
 }
 
+/* Programming Card */
+
+.prog-container {
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-color: rgba(102, 102, 102, 0.2);
+}
+
+.prog-card {
+  background: white;
+  border-radius: 12px;
+  padding: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.prog-card-container {
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.prog-card-content {
+  padding: 2rem 2rem 0 2rem;
+  text-align: center;
+  font-family: 'Lexend', sans-serif;
+}
+
+.prog-title {
+  text-align: center;
+}
+
+.prog-card-title {
+  text-align: center;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 600;
+}
+
+.prog-card-content .card-content-icon {
+  margin: -2px 0 0 7px;
+  color: #198754;
+}
+
+.prog-card-content .prog-card-text {
+  color: #666;
+  font-family: 'Lexend', sans-serif;
+}
+
+.prog-card-content .card-period {
+  font-weight: 600;
+}
+
+.prog-card-content .card-description {
+  font-weight: 200;
+  font-size: small;
+  font-family: 'Lexend', sans-serif;
+}
+
+.prog-card-content .card-teacher {
+  font-weight: 500;
+  font-size: small;
+}
+
+.hr-custom {
+  height: 2px;
+  opacity: 0.5;
+  color: black;
+}
+
+/* Hero */
+
+.text-container {
+  justify-content: center;
+}
+
+.inf-paragraph {
+  font-family: 'Lexend', sans-serif;
+  font-size: 14px;
+}
+
+.hero-btn {
+  min-width: 13rem;
+  height: 2.5rem;
+}
+
+.hero-img-frame {
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.hero-img-frame img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
+
 /* Media queries */
+@media (max-width: 500px) {
+  /* Hero */
+  .text-container {
+    min-width: 400px;
+    text-align: center;
+  }
+
+  .inf-paragraph {
+    font-size: 12px;
+  }
+
+  .hero-btn {
+    min-width: 10rem;
+    font-size: 13px;
+    height: 2rem;
+  }
+
+  /* Navbar */
+  .nav-link {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 700px) {
+  .hero-btn {
+    min-width: 15rem;
+    height: 2.5rem;
+  }
+  .hero-img-frame {
+    padding: 2.5rem;
+    border-radius: 15px;
+    max-height: fit-content;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-img-frame {
+    padding: 2.5rem;
+    border-radius: 15px;
+    max-height: fit-content;
+  }
+}
+
+@media (min-width: 800px) {
+  .hero-btn {
+    min-width: 18rem;
+    height: 2.5rem;
+  }
+  .hero-img-frame {
+    padding: 2.5rem;
+    border-radius: 15px;
+    max-height: fit-content;
+  }
+}
+
 @media (min-width: 992px) {
+  /* Hero */
+  .hero-btn {
+    min-width: 13rem;
+    height: 2.5rem;
+  }
+  .hero-img-frame {
+    padding: 2.5rem;
+    border-radius: 15px;
+    max-height: fit-content;
+  }
+
+  /* About cards */
   .card-container {
     display: grid;
     grid-template-columns: 40% 60%;
@@ -209,150 +376,5 @@ h5.org-title {
   .card-container:nth-child(even) .custom-card {
     margin-right: -6rem;
     padding-right: 7rem;
-  }
-}
-
-/* Programming Card */
-
-.prog-container {
-  background-repeat: no-repeat;
-  object-fit: contain;
-  background-color: rgba(102, 102, 102, 0.2);
-}
-
-.prog-card {
-  background: white;
-  border-radius: 12px;
-  padding: 0;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  position: relative;
-  overflow: hidden;
-  height: 100%;
-}
-
-.prog-card-container {
-  gap: 1.5rem;
-  padding: 1rem;
-}
-
-.prog-card-content {
-  padding: 2rem 2rem 0 2rem;
-  text-align: center;
-  font-family: 'Lexend', sans-serif;
-}
-
-.prog-title {
-  text-align: center;
-}
-
-.prog-card-title {
-  text-align: center;
-  font-family: 'Lexend', sans-serif;
-  font-weight: 600;
-}
-
-.prog-card-content .card-content-icon {
-  margin: -2px 0 0 7px;
-  color: #198754;
-}
-
-.prog-card-content .prog-card-text {
-  color: #666;
-  font-family: 'Lexend', sans-serif;
-}
-
-.prog-card-content .card-period {
-  font-weight: 600;
-}
-
-.prog-card-content .card-description {
-  font-weight: 200;
-  font-size: small;
-  font-family: 'Lexend', sans-serif;
-}
-
-.prog-card-content .card-teacher {
-  font-weight: 500;
-  font-size: small;
-}
-
-.hr-custom {
-  height: 2px;
-  opacity: 0.5;
-  color: black;
-}
-
-/* Hero */
-
-.text-container {
-  justify-content: center;
-  text-align: center;
-}
-
-.inf-paragraph {
-  font-family: 'Lexend', sans-serif;
-  font-size: 14px;
-}
-
-.hero-btn {
-  min-width: 13rem;
-  height: 2.5rem;
-}
-
-.hero-img-frame {
-  padding: 2rem;
-  border-radius: 15px;
-}
-
-.hero-img-frame img {
-  width: 100%;
-  height: 100%;
-  border-radius: 15px;
-  object-fit: cover;
-  margin: 0 auto;
-  display: block;
-}
-
-@media (min-width: 700px) {
-  .hero-btn {
-    min-width: 15rem;
-    height: 2.5rem;
-  }
-  .hero-img-frame {
-    padding: 2.5rem;
-    border-radius: 15px;
-    max-height: fit-content;
-  }
-}
-
-@media (min-width: 768px) {
-  .hero-img-frame {
-    padding: 2.5rem;
-    border-radius: 15px;
-    max-height: fit-content;
-  }
-}
-
-@media (min-width: 800px) {
-  .hero-btn {
-    min-width: 18rem;
-    height: 2.5rem;
-  }
-  .hero-img-frame {
-    padding: 2.5rem;
-    border-radius: 15px;
-    max-height: fit-content;
-  }
-}
-
-@media (min-width: 992px) {
-  .hero-btn {
-    min-width: 13rem;
-    height: 2.5rem;
-  }
-  .hero-img-frame {
-    padding: 2.5rem;
-    border-radius: 15px;
-    max-height: fit-content;
   }
 }
