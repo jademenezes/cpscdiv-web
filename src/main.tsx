@@ -14,9 +14,12 @@ createRoot(document.getElementById('root')!).render(
     <BrowserRouter>
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<App />}></Route>
-          <Route path="/organizacao" element={<Organization />}></Route>
-          <Route path="/sobre" element={<About />}></Route>
+          <Route path="/cpscdiv-web/" element={<App />}></Route>
+          <Route
+            path="/cpscdiv-web/organizacao"
+            element={<Organization />}
+          ></Route>
+          <Route path="/cpscdiv-web/sobre" element={<About />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
