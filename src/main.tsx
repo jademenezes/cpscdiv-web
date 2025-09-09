@@ -11,15 +11,12 @@ import About from './pages/About.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/cpscdiv-web">
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/cpscdiv-web/" element={<App />}></Route>
-          <Route
-            path="/cpscdiv-web/organizacao"
-            element={<Organization />}
-          ></Route>
-          <Route path="/cpscdiv-web/sobre" element={<About />}></Route>
+          <Route path="/" element={<App />}></Route>
+          <Route path="/organizacao" element={<Organization />}></Route>
+          <Route path="/sobre" element={<About />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
