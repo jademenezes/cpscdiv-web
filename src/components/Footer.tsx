@@ -1,7 +1,13 @@
+import { useLanguage } from '../context/LanguageContext';
+import es from '../locales/es.json';
+import pt from '../locales/pt-BR.json';
+
 const Footer = () => {
+  const { language } = useLanguage();
+
   return (
     <footer className="container my-1">
-      <p>Realização</p>
+      <p>{language == 'es' ? es.footer : pt.footer}</p>
       <div className="row align-items-center justify-content-center">
         <div className="col-2 col-md-2 text-center">
           <img className="footer-img" src="images/logoProex.png" alt="" />

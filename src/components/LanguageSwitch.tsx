@@ -4,24 +4,24 @@ import { MdOutlineLanguage } from 'react-icons/md';
 const LanguageSwitch = () => {
   const { language, changeLanguage } = useLanguage();
 
-  console.log('LanguageSwitch current language:', language); // Add this
-
   const handleLanguageSwitch = () => {
     const newLanguage = language === 'pt-BR' ? 'es' : 'pt-BR';
     changeLanguage(newLanguage);
   };
 
   return (
-    <button
-      className="btn"
-      onClick={handleLanguageSwitch}
-      title={language === 'pt-BR' ? 'Português' : 'Español'}
-    >
-      <MdOutlineLanguage className="icon text-body" />
-      <span className="p-1 text-white">
-        {language === 'pt-BR' ? 'Português' : 'Español'}
-      </span>
-    </button>
+    <div className="switch-container">
+      <button
+        className="btn mx-0 px-0"
+        onClick={handleLanguageSwitch}
+        title={language === 'pt-BR' ? 'Português' : 'Español'}
+      >
+        <MdOutlineLanguage className="icon text-body" />
+        <span className="switch-text text-white p-1">
+          {language === 'pt-BR' ? 'Português' : 'Español'}
+        </span>
+      </button>
+    </div>
   );
 };
 

@@ -1,10 +1,15 @@
 import { Link } from 'react-router';
 import { HashLink } from 'react-router-hash-link';
+import { useLanguage } from '../context/LanguageContext';
+import LanguageSwitch from './LanguageSwitch';
+import es from '../locales/es.json';
+import pt from '../locales/pt-BR.json';
 
 const Navbar = () => {
+  const { language } = useLanguage();
+
   return (
     <nav className="navbar navbar-expand-lg navbar-white navbar-dark bg-success">
-      {/* Justify-content-smth (start (left), center, end (right)) */}
       <div className="container-fluid ">
         <button
           className="navbar-toggler"
@@ -21,34 +26,34 @@ const Navbar = () => {
           <ul className="navbar-nav gap-2">
             <li className="nav-item">
               <Link className="nav-link" to="/">
-                Início
+                {language == 'es' ? es.navbar.home : pt.navbar.home}
               </Link>
             </li>
             <li className="nav-item">
               <HashLink className="nav-link" to="/#programacao">
-                Programação
+                {language == 'es' ? es.navbar.schedule : pt.navbar.schedule}
               </HashLink>
-              {/* <a className="nav-link" href="/#schedule">
-                Programação
-              </a> */}
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/sobre">
-                Sobre
+                {language == 'es' ? es.navbar.about : pt.navbar.about}
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/organizacao">
-                Organização
+                {language == 'es'
+                  ? es.navbar.organization
+                  : pt.navbar.organization}
               </Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="">
-                Inscrições
+                {language == 'es' ? es.navbar.subscribe : pt.navbar.subscribe}
               </a>
             </li>
           </ul>
         </div>
+        <LanguageSwitch />
       </div>
     </nav>
   );

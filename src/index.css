@@ -62,6 +62,10 @@ h5.org-title {
   max-width: 100px;
 }
 
+.switch-container {
+  margin: 0;
+}
+
 /* about card component */
 
 .card-container {
@@ -229,6 +233,10 @@ h5.org-title {
 
   /* Navbar */
   .nav-link {
+    font-size: 14px;
+  }
+
+  .switch-text {
     font-size: 14px;
   }
 }

@@ -1,0 +1,10 @@
+{
+  "navbar": {
+    "home": "Início",
+    "schedule": "Programação",
+    "about": "Sobre",
+    "organization": "Organização",
+    "subscribe": "Inscrições"
+  },
+  "footer": "Realização"
+}

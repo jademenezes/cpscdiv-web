@@ -1,0 +1,10 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "schedule": "Cronograma",
+    "about": "Sobre",
+    "organization": "Organización",
+    "subscribe": "Inscripción"
+  },
+  "footer": "Realización"
+}
