@@ -1,5 +1,6 @@
 import orgData from '../data/orgData.json';
 import { useLanguage } from '../context/LanguageContext';
+import { motion as m } from 'framer-motion';
 
 interface StaffItem {
   title: string;
@@ -22,7 +23,12 @@ const Organization = () => {
   const currentData = (orgData as OrgData)[language as keyof OrgData];
 
   return (
-    <div className="content-fluid ">
+    <m.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.65 }}
+      className="content-fluid "
+    >
       <h2 className="text-center py-3">
         {language == 'es' ? 'Organización' : 'Organização'}
       </h2>
@@ -50,7 +56,7 @@ const Organization = () => {
           </div>
         ))}
       </div>
-    </div>
+    </m.div>
   );
 };
 
