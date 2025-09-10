@@ -1,23 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IV Colóquio de Pesquisa Social Crítico-Dialética</title>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <script>
+      // Get the path from the URL and redirect to index.html with it
+      const path = window.location.pathname;
+      const search = window.location.search;
+      const hash = window.location.hash;
+      window.location.href = '/index.html' + path + search + hash;
+    </script>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-    <script>
-      // Single Page App routing redirect for GitHub Pages
-      (function () {
-        var redirect = sessionStorage.redirect;
-        delete sessionStorage.redirect;
-        if (redirect && redirect != location.href) {
-          history.replaceState(null, null, redirect);
-        }
-      })();
-    </script>
+    <p>Redirecting...</p>
   </body>
 </html>
