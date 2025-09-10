@@ -4,22 +4,11 @@
     <meta charset="utf-8" />
     <title>Redirecting...</title>
     <script>
-      const segment = 1; // Adjust this based on your repo structure
-      const path = location.pathname.split('/');
-      let newPath = '';
-
-      for (let i = 0; i < segment; i++) {
-        newPath += `/${path[i] || ''}`;
-      }
-
-      newPath += '/index.html';
-
-      for (let i = segment; i < path.length; i++) {
-        newPath += `/${path[i]}`;
-      }
-
-      newPath += location.search + location.hash;
-      location.replace(newPath);
+      // Get the path from the URL and redirect to index.html with it
+      const path = window.location.pathname;
+      const search = window.location.search;
+      const hash = window.location.hash;
+      window.location.href = '/index.html' + path + search + hash;
     </script>
   </head>
   <body>
