@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <script>
+      const segment = 1; // Adjust this based on your repo structure
+      const path = location.pathname.split('/');
+      let newPath = '';
+
+      for (let i = 0; i < segment; i++) {
+        newPath += `/${path[i] || ''}`;
+      }
+
+      newPath += '/index.html';
+
+      for (let i = segment; i < path.length; i++) {
+        newPath += `/${path[i]}`;
+      }
+
+      newPath += location.search + location.hash;
+      location.replace(newPath);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>
