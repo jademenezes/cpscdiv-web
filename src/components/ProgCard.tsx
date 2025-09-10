@@ -29,7 +29,7 @@ const ProgCard = (props: ProgCardProps) => {
               {course.teacher}
             </div>
 
-            {courseIndex == 0 ? (
+            {courseIndex < props.courses.length - 1 ? (
               <hr className="border-2 hr-custom my-0"></hr>
             ) : null}
           </div>

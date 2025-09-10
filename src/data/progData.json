@@ -1,62 +1,136 @@
-[
-  {
-    "date": "Dia 1",
-    "courses": [
-      {
-        "period": "Manhã - 8h",
-        "description": "Abertura do IV Colóquio de Pesquisa Social Crítico-dialética",
-        "teacher": "Dra. Maria Helena Cariaga"
-      },
-      {
-        "period": "Noite - 19h",
-        "description": "Abertura do II Colóquio Internacional de Pesquisa Social Crítico-dialética",
-        "teacher": "Dra. Mariléa Borges L. Salvador"
-      }
-    ]
-  },
-  {
-    "date": "Dia 2",
-    "courses": [
-      {
-        "period": "Manhã - 8h",
-        "description": "Abertura do IV Colóquio de Pesquisa Social Crítico-dialética",
-        "teacher": "Dra. Maria Helena Cariaga"
-      },
-      {
-        "period": "Noite - 19h",
-        "description": "Abertura do II Colóquio Internacional de Pesquisa Social Crítico-dialética",
-        "teacher": "Dra. Mariléa Borges L. Salvador"
-      }
-    ]
-  },
-  {
-    "date": "Dia 3",
-    "courses": [
-      {
-        "period": "Manhã - 8h",
-        "description": "Abertura do IV Colóquio de Pesquisa Social Crítico-dialética",
-        "teacher": "Dra. Maria Helena Cariaga"
-      },
-      {
-        "period": "Noite - 19h",
-        "description": "Abertura do II Colóquio Internacional de Pesquisa Social Crítico-dialética",
-        "teacher": "Dra. Mariléa Borges L. Salvador"
-      }
-    ]
-  },
-  {
-    "date": "Dia 4",
-    "courses": [
-      {
-        "period": "Manhã - 8h",
-        "description": "Abertura do IV Colóquio de Pesquisa Social Crítico-dialética",
-        "teacher": "Dra. Maria Helena Cariaga"
-      },
-      {
-        "period": "Noite - 19h",
-        "description": "Abertura do II Colóquio Internacional de Pesquisa Social Crítico-dialética",
-        "teacher": "Dra. Mariléa Borges L. Salvador"
-      }
-    ]
-  }
-]
+{
+  "pt-BR": [
+    {
+      "date": "Dia 1",
+      "courses": [
+        {
+          "period": "Noite - 19h",
+          "description": "Conferencia de Abertura do II Colóquio Internacional de Pesquisa Social Crítico-dialética - A Pesquisa Social Marxista",
+          "teacher": "Dr. Carlos Lima"
+        }
+      ]
+    },
+    {
+      "date": "Dia 2",
+      "courses": [
+        {
+          "period": "Manhã - 8h",
+          "description": "Minicurso “A Pesquisa Social Qualitativa: desafios do método”",
+          "teacher": "Dr. Vanderlei Martini"
+        },
+        {
+          "period": "Tarde - 14:30",
+          "description": "Apresentação de trabalhos",
+          "teacher": null
+        },
+        {
+          "period": "Noite - 19h",
+          "description": "Minicurso” Construção sócio-histórica da pesquisa em Serviço Social na América Latina”",
+          "teacher": "Dr. Manuel Mallardi"
+        }
+      ]
+    },
+    {
+      "date": "Dia 3",
+      "courses": [
+        {
+          "period": "Manhã - 8h",
+          "description": "Minicurso “A Pesquisa Social Qualitativa: desafios do método”",
+          "teacher": "Dr. Vanderlei Martini"
+        },
+        {
+          "period": "Tarde - 16h",
+          "description": "Apresentação de trabalhos",
+          "teacher": null
+        },
+        {
+          "period": "Noite - 19h",
+          "description": "Minicurso” Construção sócio-histórica da pesquisa em Serviço Social na América Latina”",
+          "teacher": "Dr. Manuel Mallardi"
+        }
+      ]
+    },
+    {
+      "date": "Dia 4",
+      "courses": [
+        {
+          "period": "Manhã - 8h",
+          "description": "Minicurso “A Pesquisa Social Qualitativa: desafios do método”",
+          "teacher": "Dr. Vanderlei Martini"
+        },
+        {
+          "period": "Tarde - 14:30",
+          "description": "Apresentação de trabalhos",
+          "teacher": null
+        },
+        {
+          "period": "Noite - 19h",
+          "description": "Minicurso” Construção sócio-histórica da pesquisa em Serviço Social na América Latina”",
+          "teacher": "Dr. Manuel Mallardi"
+        }
+      ]
+    }
+  ],
+  "es": [
+    {
+      "date": "Dia 1",
+      "courses": [
+        {
+          "period": "Mañana - 8:00 a.m.",
+          "description": "Inauguración del IV Coloquio de Investigación Social Crítico-Dialéctica",
+          "teacher": "Dra. María Helena Cariaga"
+        },
+        {
+          "period": "Noche - 19:00 p.m.",
+          "description": "Inauguración del II Coloquio Internacional de Investigación Social Crítico-Dialéctica",
+          "teacher": "Dra. Mariléa Borges L. Salvador"
+        }
+      ]
+    },
+    {
+      "date": "Dia 2",
+      "courses": [
+        {
+          "period": "Mañana - 8:00 a.m.",
+          "description": "Minicurso “Investigación Social Cualitativa: Desafíos del Método”",
+          "teacher": "Dr. Vanderlei Martini"
+        },
+        {
+          "period": "Noche - 19:00 p.m.",
+          "description": "Minicurso “Construcción Sociohistórica de la Investigación en Trabajo Social en América Latina”",
+          "teacher": "Dr. Manuel Mallardi"
+        }
+      ]
+    },
+    {
+      "date": "Dia 3",
+      "courses": [
+        {
+          "period": "Mañana - 8:00 a.m.",
+          "description": "Minicurso “Investigación Social Cualitativa: Desafíos del Método”",
+          "teacher": "Dr. Vanderlei Martini"
+        },
+        {
+          "period": "Noche - 19:00 p.m.",
+          "description": "Minicurso “Construcción Sociohistórica de la Investigación en Trabajo Social en América Latina”",
+          "teacher": "Dr. Manuel Mallardi"
+        }
+      ]
+    },
+    {
+      "date": "Dia 4",
+      "courses": [
+        {
+          "period": "Mañana - 8:00 a.m.",
+          "description": "Minicurso “Investigación Social Cualitativa: Desafíos del Método”",
+          "teacher": "Dr. Vanderlei Martini"
+        },
+        {
+          "period": "Noche - 19:00 p.m.",
+          "description": "Minicurso “Construcción Sociohistórica de la Investigación en Trabajo Social en América Latina”",
+          "teacher": "Dr. Manuel Mallardi"
+        }
+      ]
+    }
+  ]
+}

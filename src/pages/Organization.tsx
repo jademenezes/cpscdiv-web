@@ -1,11 +1,33 @@
 import orgData from '../data/orgData.json';
+import { useLanguage } from '../context/LanguageContext';
+
+interface StaffItem {
+  title: string;
+  staff: string | string[];
+}
+
+interface OrgItem {
+  column: number;
+  items: StaffItem[];
+}
+
+interface OrgData {
+  'pt-BR': OrgItem[];
+  es: OrgItem[];
+}
 
 const Organization = () => {
+  const { language } = useLanguage();
+
+  const currentData = (orgData as OrgData)[language as keyof OrgData];
+
   return (
     <div className="content-fluid ">
-      <h2 className="text-center py-3">Organização</h2>
+      <h2 className="text-center py-3">
+        {language == 'es' ? 'Organización' : 'Organização'}
+      </h2>
       <div className="row mx-0">
-        {orgData.map((column, columnIndex) => (
+        {currentData.map((column, columnIndex) => (
           <div key={columnIndex} className="col-12 col-lg-6">
             {column.items.map((data, index) => (
               <div

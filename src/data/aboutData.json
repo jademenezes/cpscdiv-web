@@ -1,12 +1,41 @@
-[
-  {
-    "title": "test",
-    "content": "test2",
-    "image": "images/imagem4.jpg"
-  },
-  {
-    "title": "test title",
-    "content": "test content",
-    "image": "images/logoGeposs.jpg"
-  }
-]
+{
+  "pt-BR": [
+    {
+      "title": "SOBRE",
+      "content": "O II Colóquio Internacional e o IV Colóquio de Pesquisa Social Crítico-dialética são os encontros científicos realizados pelo Grupo de Pesquisa e Extensão em Serviço Social Crítico – GEPESSCRITICO, com o apoio do PPGSSocial, que acontecem, desde 2019, de dois em dois anos no Campus Universitário de Miracema, da Universidade Federal do Tocantins – CUM/UFT. Sempre agendado para o mês de outubro. Em 2025, na sua quarta edição, o IV Colóquio de Pesquisa Social Crítico-dialética, se associa ao II Colóquio Internacional para dar continuidade ao amplo debate sobre as temáticas emergentes e demandantes da produção do conhecimento em Serviço Social, diante da conjuntura sócio-histórica atual.",
+      "image": "src/images/imagem4.jpg"
+    },
+    {
+      "title": "O COLÓQUIO EM 2025",
+      "content": "Em 2025, o II Colóquio Internacional e o IV Colóquio de Pesquisa Social Crítico-dialética se realizarão nos dias 28, 29, 30 e 31 de outubro de 2025. Em parceria com o GEPOSS, com o Grupo de Leituras Marxistas e com o CRESS 25ª Região/TO, o encontro objetiva ampliar o debate sobre as “Metodologias da Pesquisa Social”, em âmbito nacional e sobre “Pesquisa no Serviço Social Crítico”. Ambos os debates serão conduzidos por dois minicursos, com três dias de duração e carga horária de 12h cada. Sendo um realizado no turno da manhã e outro no turno da noite, cujo conteúdo estará estreitamente articulado aos dois temas de debate.",
+      "image": "src/images/imagem4.jpg"
+    },
+    {
+      "title": "EDIÇÃO INTERNACIONAL",
+      "content": "A edição internacional realizará o minicurso: Construção sócio-histórica da pesquisa em Serviço Social na América Latina, a ser conduzido pelo Professor Manuel Mallardi, Licenciado e Mestre em Serviço Social, Doutor em Ciências Sociais. Professor Titular da Faculdade de Ciências Humanas da UNCPBA - Universidad Nacional del Centro de la Provincia de Buenos Aires. Pesquisador CONICET no Centro Interdisciplinar para o Estudo de Políticas Públicas. Diretor do Mestrado em Trabajo Social – FCH/UNCPBA. Ressalta-se que esta atividade será realizada de forma digital, através do canal oficial do Youtube do Campus de Miracema.",
+      "image": "src/images/imagem4.jpg"
+    },
+    {
+      "title": "EDIÇÃO NACIONAL",
+      "content": "A edição nacional realizará o minicurso: A Pesquisa Qualitativa e os desafios do método”, sob a condução do Professor Vanderlei Martini graduado em Serviço Social pela Escola de Serviço Social da Universidade Federal do Rio de Janeiro ESS/UFRJ. Mestre em Política Social pelo Programa de Pós-Graduação em Política Social da Universidade de Brasília - PPGPS/UnB. Doutor pela Escola de Serviço Social da Universidade Federal do Rio de Janeiro ESS/UFRJ. Professor do Magistério Superior na Universidade Federal de Tocantins - UFT (2025). Lecionou no Departamento de Serviço Social da Universidade Federal de Ouro Preto - DESSO/UFO. Estuda Teoria Social de Marx; Formação social brasileira; Fundamentos da Formação e Trabalho Profissional em Serviço Social; Política Social; Questão social e Movimentos Sociais. Ampla experiência em Coordenação Política Pedagógica em cursos realizados em parceria com a UFJF, a UFU, a UFMG, a UnB, e a UFRJ. Participou do Grupo de Estudos sobre Serviço Social e Trabalho GESST/PPGPS/UnB: 2016-2017; Membro do GEMPS - Grupo de Estudo e Pesquisas Marxistas em Política Social, no PPGSS/ESS/UFRJ; 2018-2021.",
+      "image": "src/images/imagem4.jpg"
+    },
+    {
+      "title": "OBJETIVO",
+      "content": "O evento terá na sua programação uma conferência de abertura e dois minicursos de formação em pesquisa social crítico-dialética. Nesta edição haverá apresentação de trabalhos acadêmicos. Pretende-se reunir pesquisadores, professores, estudantes de graduação e pós-graduação e profissionais nas áreas de ciências sociais e ciências sociais aplicadas e humanas; voltadas para o Serviço Social, Pedagogia, Psicologia, Educação Física, Sociologia e Licenciaturas, entre outras áreas afins; agregando assistentes sociais, pedagogos, psicólogos, cientistas sociais, professores de educação física e demais profissionais para a produção do conhecimento científico na perspectiva da produção do conhecimento científico alinhado a teoria social marxista. Assim como, visa, também, a integração científica com instituições brasileiras de ensino superior, públicas ou privadas, possibilitando o crescimento do interesse pela pesquisa social, bem como pela docência e pós-graduação. O objetivo do evento, para além de discutir, está em conhecer as pesquisas desenvolvidas pelas diversas instituições que participarão do evento e construir interlocuções e parcerias entre redes de pesquisas nacionais capazes de contribuir para o avanço e desenvolvimento da investigação científica realizada no campo social e teórico-metodológico crítico-dialético, na academia brasileira.",
+      "image": "src/images/imagem4.jpg"
+    }
+  ],
+  "es": [
+    {
+      "title": "test",
+      "content": "test2",
+      "image": "images/imagem4.jpg"
+    },
+    {
+      "title": "test title",
+      "content": "test content",
+      "image": "images/logoGeposs.jpg"
+    }
+  ]
+}
