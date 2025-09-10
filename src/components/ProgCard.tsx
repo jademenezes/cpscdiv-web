@@ -14,7 +14,7 @@ interface ProgCardProps {
 const ProgCard = (props: ProgCardProps) => {
   return (
     <div className="prog-card-container text-center">
-      <h3 className="prog-card-title">{props.date}</h3>
+      <h4 className="prog-card-title">{props.date}</h4>
       <div className="prog-card">
         {props.courses.map((course, courseIndex) => (
           <div key={courseIndex} className="prog-card-content text-start">

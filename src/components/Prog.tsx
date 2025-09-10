@@ -26,7 +26,7 @@ const Prog = () => {
   return (
     <div className="prog-container py-3" id="programacao">
       <div className="prog-title">
-        <h3>{language == 'es' ? 'Programación' : 'Programação'}</h3>
+        <h2>{language == 'es' ? 'Programación' : 'Programação'}</h2>
       </div>
       <div className="container my-3">
         <div className="row row-cols-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-4 mx-md-5 mx-lg-0 g-lg-0 g-xl-0 g-xxl-4 justify-content-center">
