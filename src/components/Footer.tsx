@@ -1,11 +1,11 @@
 import { useLanguage } from '../context/LanguageContext';
 import es from '../locales/es.json';
 import pt from '../locales/pt-BR.json';
-import logoProex from '../images/logoProex.png';
-import logoGepes from '../images/logoGepes.png';
-import logoGeposs from '../images/logoGeposs.jpg';
-import logoServicoSocial from '../images/logoServicoSocial.png';
-import logoPpgSocial from '../images/logoPpgssocial.jpeg';
+import logoProex from '/images/logoProex.png';
+import logoGepes from '/images/logoGepes.png';
+import logoGeposs from '/images/logoGeposs.jpg';
+import logoServicoSocial from '/images/logoServicoSocial.png';
+import logoPpgSocial from '/images/logoPpgssocial.jpeg';
 
 const Footer = () => {
   const { language } = useLanguage();

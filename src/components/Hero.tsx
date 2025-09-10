@@ -1,7 +1,7 @@
 import heroData from '../data/heroData.json';
 import { useLanguage } from '../context/LanguageContext';
 import { Link } from 'react-router';
-import img3 from '../images/img3.jpg';
+import img3 from '/images/img3.jpg';
 
 interface InformationData {
   inf: string;

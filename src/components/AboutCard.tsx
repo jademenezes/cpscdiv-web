@@ -9,7 +9,7 @@ const AboutCard = (props: AboutCardProps) => {
     <div className="card-container">
       <div className="custom-card">
         <div className="img-frame d-lg-none">
-          <img src={props.image} alt="" />
+          <img src={`${import.meta.env.BASE_URL}${props.image}`} alt="" />
         </div>
         <div className="custom-card-content">
           <h4>{props.title}</h4>
@@ -18,7 +18,7 @@ const AboutCard = (props: AboutCardProps) => {
       </div>
 
       <div className="img-frame d-none d-lg-block ">
-        <img src={props.image} alt="" />
+        <img src={`${import.meta.env.BASE_URL}${props.image}`} alt="" />
       </div>
     </div>
   );
