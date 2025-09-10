@@ -53,7 +53,9 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <LanguageSwitch />
+        <div className="position-absolute top-0 end-0 mt-2 me-3">
+          <LanguageSwitch />
+        </div>
       </div>
     </nav>
   );
