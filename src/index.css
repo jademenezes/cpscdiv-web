@@ -222,7 +222,7 @@ h5.org-title {
 @media (max-width: 500px) {
   /* Hero */
   .text-container {
-    min-width: 400px;
+    min-width: auto;
     text-align: center;
   }
 
@@ -232,7 +232,7 @@ h5.org-title {
 
   .hero-btn {
     min-width: 10rem;
-    font-size: 13px;
+    font-size: 12px;
     height: 2rem;
   }
 

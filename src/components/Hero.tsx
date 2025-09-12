@@ -38,11 +38,16 @@ const Hero = () => {
           <h1 className="title p-2 mb-lg-5">{currentData.title}</h1>
 
           <div className="d-flex justify-content-between me-md-5">
-            <Link className="btn btn-secondary hero-btn m-2" to={'/sobre'}>
+            <Link
+              className="btn btn-secondary hero-btn m-2"
+              id="about"
+              to="sobre"
+            >
               {currentData.aboutButton}
             </Link>
             <Link
               className="btn btn-success hero-btn m-2"
+              id="subcription"
               to={currentData.subscribeButton.link}
               target="_blank"
             >

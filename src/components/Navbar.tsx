@@ -35,12 +35,12 @@ const Navbar = () => {
               </HashLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/sobre">
+              <Link className="nav-link" to="sobre">
                 {language == 'es' ? es.navbar.about : pt.navbar.about}
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/organizacao">
+              <Link className="nav-link" to="organizacao">
                 {language == 'es'
                   ? es.navbar.organization
                   : pt.navbar.organization}
