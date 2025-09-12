@@ -1,18 +1,24 @@
 import heroData from '../data/heroData.json';
 import { useLanguage } from '../context/LanguageContext';
 import { Link } from 'react-router';
-import img3 from '/images/img3.jpg';
+import sobre1 from '/images/sobre1.webp';
 
 interface InformationData {
   inf: string;
   startDate: string;
+  connect: string;
   endDate: string;
+}
+
+interface subscribeItem {
+  text: string;
+  link: string;
 }
 
 interface HeroItem {
   title: string;
   aboutButton: string;
-  subscribeButton: string;
+  subscribeButton: subscribeItem;
   information: InformationData;
 }
 
@@ -37,9 +43,10 @@ const Hero = () => {
             </Link>
             <Link
               className="btn btn-success hero-btn m-2"
-              to="http://google.com"
+              to={currentData.subscribeButton.link}
+              target="_blank"
             >
-              {currentData.subscribeButton}
+              {currentData.subscribeButton.text}
             </Link>
           </div>
           <p className="inf-paragraph py-2 px-2 mt-2">
@@ -48,7 +55,7 @@ const Hero = () => {
               {' '}
               {currentData.information.startDate}{' '}
             </span>{' '}
-            a
+            <span>{currentData.information.connect}</span>
             <span className="text-danger">
               {' '}
               {currentData.information.endDate}
@@ -56,7 +63,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="hero-img-frame">
-          <img className="img-fluid" src={img3} alt="" />
+          <img className="img-fluid" src={sobre1} alt="" />
         </div>
       </div>
     </div>

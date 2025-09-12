@@ -4,7 +4,10 @@
     "schedule": "Programação",
     "about": "Sobre",
     "organization": "Organização",
-    "subscribe": "Inscrições"
+    "subscribe": {
+      "text": "Inscrições",
+      "link": "https://forms.gle/seoDBH9A7i1ouX2cA"
+    }
   },
   "footer": "Realização"
 }

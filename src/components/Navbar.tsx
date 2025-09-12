@@ -47,9 +47,19 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="">
-                {language == 'es' ? es.navbar.subscribe : pt.navbar.subscribe}
-              </a>
+              <Link
+                className="nav-link"
+                to={
+                  language == 'es'
+                    ? es.navbar.subscribe.link
+                    : pt.navbar.subscribe.link
+                }
+                target="_blank"
+              >
+                {language == 'es'
+                  ? es.navbar.subscribe.text
+                  : pt.navbar.subscribe.text}
+              </Link>
             </li>
           </ul>
         </div>

@@ -4,11 +4,14 @@ import { useLanguage } from '../context/LanguageContext';
 
 interface CourseItem {
   period: string;
+  opening?: string;
+  ending?: string;
   description: string;
   teacher: string;
 }
 
 interface ProgItem {
+  day: string;
   date: string;
   courses: CourseItem[];
 }
@@ -32,7 +35,11 @@ const Prog = () => {
         <div className="row row-cols-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-4 mx-md-5 mx-lg-0 g-lg-0 g-xl-0 g-xxl-4 justify-content-center">
           {currentData.map((data, index) => (
             <div key={index} className="col">
-              <ProgCard date={data.date} courses={data.courses} />
+              <ProgCard
+                day={data.day}
+                date={data.date}
+                courses={data.courses}
+              />
             </div>
           ))}
         </div>

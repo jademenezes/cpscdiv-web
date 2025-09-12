@@ -1,17 +1,20 @@
 {
   "pt-BR": [
     {
-      "date": "Dia 1",
+      "day": "Dia 1",
+      "date": "(28/10)",
       "courses": [
         {
           "period": "Noite - 19h",
-          "description": "Conferencia de Abertura do II Colóquio Internacional de Pesquisa Social Crítico-dialética - A Pesquisa Social Marxista",
-          "teacher": "Dr. Carlos Lima"
+          "opening": "Abertura do II Colóquio Internacional de Pesquisa Social Crítico-dialética.",
+          "description": "Conferência – A Pesquisa Social Marxista",
+          "teacher": "Prof. Márcio Carvalho (UFT)"
         }
       ]
     },
     {
-      "date": "Dia 2",
+      "day": "Dia 2",
+      "date": "(29/10)",
       "courses": [
         {
           "period": "Manhã - 8h",
@@ -31,7 +34,8 @@
       ]
     },
     {
-      "date": "Dia 3",
+      "day": "Dia 3",
+      "date": "(30/10)",
       "courses": [
         {
           "period": "Manhã - 8h",
@@ -51,7 +55,8 @@
       ]
     },
     {
-      "date": "Dia 4",
+      "day": "Dia 4",
+      "date": "(31/10)",
       "courses": [
         {
           "period": "Manhã - 8h",
@@ -65,6 +70,7 @@
         },
         {
           "period": "Noite - 19h",
+          "ending": "Encerramento do II Colóquio Internacional e IV Colóquio Nacional de Pesquisa Social Crítico-dialética.",
           "description": "Minicurso” Construção sócio-histórica da pesquisa em Serviço Social na América Latina”",
           "teacher": "Dr. Manuel Mallardi"
         }
@@ -73,27 +79,30 @@
   ],
   "es": [
     {
-      "date": "Dia 1",
+      "day": "Día 1",
+      "date": "(28/10)",
       "courses": [
         {
-          "period": "Mañana - 8:00 a.m.",
-          "description": "Inauguración del IV Coloquio de Investigación Social Crítico-Dialéctica",
-          "teacher": "Dra. María Helena Cariaga"
-        },
-        {
           "period": "Noche - 19:00 p.m.",
-          "description": "Inauguración del II Coloquio Internacional de Investigación Social Crítico-Dialéctica",
-          "teacher": "Dra. Mariléa Borges L. Salvador"
+          "opening": "Inauguración del II Coloquio Internacional de Investigación Social Crítico-dialéctica.",
+          "description": "Conferencia – Investigación Social Marxista",
+          "teacher": "Prof. Márcio Carvalho (UFT)"
         }
       ]
     },
     {
-      "date": "Dia 2",
+      "day": "Día 2",
+      "date": "(29/10)",
       "courses": [
         {
           "period": "Mañana - 8:00 a.m.",
           "description": "Minicurso “Investigación Social Cualitativa: Desafíos del Método”",
           "teacher": "Dr. Vanderlei Martini"
+        },
+        {
+          "period": "Tarde - 14:30",
+          "description": "Presentación de obras",
+          "teacher": null
         },
         {
           "period": "Noche - 19:00 p.m.",
@@ -103,12 +112,18 @@
       ]
     },
     {
-      "date": "Dia 3",
+      "day": "Día 3",
+      "date": "(30/10)",
       "courses": [
         {
           "period": "Mañana - 8:00 a.m.",
           "description": "Minicurso “Investigación Social Cualitativa: Desafíos del Método”",
           "teacher": "Dr. Vanderlei Martini"
+        },
+        {
+          "period": "Tarde - 16:00 p.m.",
+          "description": "Presentación de obras",
+          "teacher": null
         },
         {
           "period": "Noche - 19:00 p.m.",
@@ -118,7 +133,8 @@
       ]
     },
     {
-      "date": "Dia 4",
+      "day": "Día 4",
+      "date": "(31/10)",
       "courses": [
         {
           "period": "Mañana - 8:00 a.m.",
@@ -126,7 +142,13 @@
           "teacher": "Dr. Vanderlei Martini"
         },
         {
+          "period": "Tarde - 16:00 p.m.",
+          "description": "Presentación de obras",
+          "teacher": null
+        },
+        {
           "period": "Noche - 19:00 p.m.",
+          "ending": "Encerramento do II Colóquio Internacional e IV Colóquio Nacional de Pesquisa Social Crítico-dialética.",
           "description": "Minicurso “Construcción Sociohistórica de la Investigación en Trabajo Social en América Latina”",
           "teacher": "Dr. Manuel Mallardi"
         }

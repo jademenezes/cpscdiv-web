@@ -2,20 +2,28 @@
   "pt-BR": {
     "title": "Bem vind@s ao II Colóquio Internacional e ao IV Colóquio de Pesquisa Social Crítico-dialética",
     "aboutButton": "Sobre",
-    "subscribeButton": "Faça sua inscrição!",
+    "subscribeButton": {
+      "text": "Faça sua inscrição!",
+      "link": "https://forms.gle/seoDBH9A7i1ouX2cA"
+    },
     "information": {
       "inf": "As inscrições dos trabalhos serão realizadas no período de",
       "startDate": "01/08/2025",
+      "connect": "a",
       "endDate": "10/10/2025"
     }
   },
   "es": {
-    "title": "PLACEHOLDER WELCOME",
-    "aboutButton": "placeholder",
-    "subscribeButton": "placeholder!",
+    "title": "Bienvenidos al II Coloquio Internacional y al IV Coloquio de Investigación Social Crítico-Dialéctica",
+    "aboutButton": "Sobre",
+    "subscribeButton": {
+      "text": "¡Inscribirse!",
+      "link": "https://forms.gle/aAjo97bfow964q5A6"
+    },
     "information": {
-      "inf": "placeholder text",
+      "inf": "La inscripción de obras se realizará del",
       "startDate": "01/08/2025",
+      "connect": " al ",
       "endDate": "10/10/2025"
     }
   }

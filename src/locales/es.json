@@ -4,7 +4,10 @@
     "schedule": "Cronograma",
     "about": "Sobre",
     "organization": "Organización",
-    "subscribe": "Inscripción"
+    "subscribe": {
+      "text": "Inscripción",
+      "link": "https://forms.gle/aAjo97bfow964q5A6"
+    }
   },
   "footer": "Realización"
 }
