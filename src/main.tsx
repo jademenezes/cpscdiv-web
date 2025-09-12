@@ -12,7 +12,7 @@ import About from './pages/About.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter basename="/cpscdiv-web">
+    <BrowserRouter>
       <LanguageProvider>
         <Routes>
           <Route element={<Layout />}>
