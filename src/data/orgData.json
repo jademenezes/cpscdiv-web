@@ -12,8 +12,18 @@
           "staff": "Dra. Mariléa Borges de Lima Salvador (GEPESSCRITICO)"
         },
         {
-          "title": "Presidente da Comissão organizadora",
+          "title": "Presidente da Comissão Organizadora",
           "staff": "Dra. Maria Helena Cariaga (GEPOSS/GEPESSCRITICO)"
+        },
+        {
+          "title": "Equipe de Recepção",
+          "staff": [
+            "Ana Vitória da Cruz Gonçalves",
+            "Flávia Alessandra Castro de Oliveira",
+            "Geysielle Mourão Dias",
+            "Lucas Rodrigues Ruiz Falchione",
+            "Maurício Curcino da Silva"
+          ]
         }
       ]
     },
@@ -72,8 +82,18 @@
           "staff": "Dra. Mariléa Borges de Lima Salvador (GEPESCRITICO)"
         },
         {
-          "title": "Presidente da Comissão organizadora",
+          "title": "Presidente da Comissão Organizadora",
           "staff": "Dra. María Helena Cariaga (GEPOSS/GEPESCRITICO)"
+        },
+        {
+          "title": "Equipo de Recepción",
+          "staff": [
+            "Ana Vitória da Cruz Gonçalves",
+            "Flávia Alessandra Castro de Oliveira",
+            "Geysielle Mourão Dias",
+            "Lucas Rodrigues Ruiz Falchione",
+            "Maurício Curcino da Silva"
+          ]
         }
       ]
     },
@@ -104,7 +124,7 @@
           ]
         },
         {
-          "title": "Equipo de apoyo académico",
+          "title": "Equipo de Apoyo Académico",
           "staff": [
             "Geórgia Sávia Cunha Pessoa Cabral",
             "Lucas Rodrigues Falchione",
