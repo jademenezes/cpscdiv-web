@@ -12,26 +12,11 @@
           "staff": "Dra. Mariléa Borges de Lima Salvador (GEPESSCRITICO)"
         },
         {
-          "title": "Presidente da Comissão Organizadora",
+          "title": "Presidente da Comissão Editorial",
           "staff": "Dra. Maria Helena Cariaga (GEPOSS/GEPESSCRITICO)"
         },
         {
-          "title": "Equipe de Recepção",
-          "staff": [
-            "Ana Vitória da Cruz Gonçalves",
-            "Flávia Alessandra Castro de Oliveira",
-            "Geysielle Mourão Dias",
-            "Lucas Rodrigues Ruiz Falchione",
-            "Maurício Curcino da Silva"
-          ]
-        }
-      ]
-    },
-    {
-      "column": 2,
-      "items": [
-        {
-          "title": "Comissão Organizadora",
+          "title": "Comissão Editorial",
           "staff": [
             "Dr. André Luiz Augusto da Silva",
             "Dr. Francisco Gonçalves Filho",
@@ -53,6 +38,21 @@
             "Dr. Vanderlei Martini",
             "Dr. Vicente Cabrera Calheiros"
           ]
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "items": [
+        {
+          "title": "Equipe de Recepção",
+          "staff": [
+            "Ana Vitória da Cruz Gonçalves",
+            "Flávia Alessandra Castro de Oliveira",
+            "Geysielle Mourão Dias",
+            "Lucas Rodrigues Ruiz Falchione",
+            "Maurício Curcino da Silva"
+          ]
         },
         {
           "title": "Equipe de Apoio Acadêmico",
@@ -64,6 +64,17 @@
             "Flávia Alessandra Castro de Oliveira",
             "Ana Vitória da Cruz Gonçalves",
             "Geysielle Mourão Dias"
+          ]
+        },
+        {
+          "title": "Equipe Técnica",
+          "staff": [
+            "Andreia Vieira Toscano",
+            "Dorisvan Moreira",
+            "Jailma Soares dos Reis",
+            "Julierme Lopes Vasconcelos",
+            "Míriam Pereira Almeida",
+            "Samuel Gomes de Queiroz"
           ]
         }
       ]
@@ -82,26 +93,11 @@
           "staff": "Dra. Mariléa Borges de Lima Salvador (GEPESCRITICO)"
         },
         {
-          "title": "Presidente da Comissão Organizadora",
+          "title": "Presidente da Comité Editorial",
           "staff": "Dra. María Helena Cariaga (GEPOSS/GEPESCRITICO)"
         },
         {
-          "title": "Equipo de Recepción",
-          "staff": [
-            "Ana Vitória da Cruz Gonçalves",
-            "Flávia Alessandra Castro de Oliveira",
-            "Geysielle Mourão Dias",
-            "Lucas Rodrigues Ruiz Falchione",
-            "Maurício Curcino da Silva"
-          ]
-        }
-      ]
-    },
-    {
-      "column": 2,
-      "items": [
-        {
-          "title": "Comité Organizador",
+          "title": "Comité Editorial",
           "staff": [
             "Dr. André Luiz Augusto da Silva",
             "Dr. Francisco Gonçalves Filho",
@@ -123,6 +119,21 @@
             "Dr. Vanderlei Martini",
             "Dr. Vicente Cabrera Calheiros"
           ]
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "items": [
+        {
+          "title": "Equipo de Recepción",
+          "staff": [
+            "Ana Vitória da Cruz Gonçalves",
+            "Flávia Alessandra Castro de Oliveira",
+            "Geysielle Mourão Dias",
+            "Lucas Rodrigues Ruiz Falchione",
+            "Maurício Curcino da Silva"
+          ]
         },
         {
           "title": "Equipo de Apoyo Académico",
@@ -134,6 +145,17 @@
             "Flávia Alessandra Castro de Oliveira",
             "Ana Vitória da Cruz Gonçalves",
             "Geysielle Mourão Dias"
+          ]
+        },
+        {
+          "title": "Equipo Técnico",
+          "staff": [
+            "Andreia Vieira Toscano",
+            "Dorisvan Moreira",
+            "Jailma Soares dos Reis",
+            "Julierme Lopes Vasconcelos",
+            "Míriam Pereira Almeida",
+            "Samuel Gomes de Queiroz"
           ]
         }
       ]
