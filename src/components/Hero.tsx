@@ -8,6 +8,7 @@ interface InformationData {
   startDate: string;
   connect: string;
   endDate: string;
+  postInf: string;
 }
 
 interface subscribeItem {
@@ -65,6 +66,9 @@ const Hero = () => {
               {' '}
               {currentData.information.endDate}
             </span>
+            <p className="text-danger inf-post mt-2">
+              {currentData.information.postInf}
+            </p>
           </p>
         </div>
         <div className="hero-img-frame">

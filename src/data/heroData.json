@@ -10,7 +10,8 @@
       "inf": "As inscrições dos trabalhos serão realizadas no período de",
       "startDate": "01/08/2025",
       "connect": "a",
-      "endDate": "10/10/2025"
+      "endDate": "24/10/2025*",
+      "postInf": "*Observar o edital"
     }
   },
   "es": {
@@ -24,7 +25,8 @@
       "inf": "La inscripción de obras se realizará del",
       "startDate": "01/08/2025",
       "connect": " al ",
-      "endDate": "10/10/2025"
+      "endDate": "24/10/2025*",
+      "postInf": "Observar o edital"
     }
   }
 }
