@@ -23,7 +23,23 @@
         },
         {
           "period": "Tarde - 14:30",
-          "description": "Apresentação de trabalhos",
+          "description": {
+            "theme": "Formação profissional e práticas profissionais:",
+            "presentations": [
+              {
+                "title": "AS CONTRADIÇÕES DE UMA SOCIEDADE CINDIDA E OS DESAFIOS IMPOSTOS À FORMACÃO E AO TRABALHO DA/DO ASSISTENTE SOCIAL",
+                "presenter": "Sandra Helena Ribeiro Cruz e Severino da Silva Martins Júnior"
+              },
+              {
+                "title": "CONSERVADORISMO E RELIGIÃO: REFLEXÕES PARA O SERVIÇO SOCIAL CONTEMPORÂNEA",
+                "presenter": "Dalsiza Cláudia Macedo Coutinho"
+              },
+              {
+                "title": "ATUAÇÃO DO SERVIÇO SOCIAL FRENTE A LEI 14.443: VIVENCIAS NO MUNICÍPIO DE PALMAS/TO",
+                "presenter": "Georgia Savia"
+              }
+            ]
+          },
           "teacher": null
         },
         {
@@ -44,7 +60,23 @@
         },
         {
           "period": "Tarde - 16h",
-          "description": "Apresentação de trabalhos",
+          "description": {
+            "theme": "Direitos sociais, Emancipação humana e pensamento crítico social / Gênero, Etnia e Diversidade:",
+            "presentations": [
+              {
+                "title": "A CENTRALIDADE DO MÉTODO MARXIANO PARA A ANÁLISE CRÍTICA DA “QUESTÃO” SOCIAL E QUESTÃO AGRÁRIA NO BRASIL",
+                "presenter": "Cristiane Francelina Dias"
+              },
+              {
+                "title": "VIOLÊNCIA DOMÉSTICA CONTRA MULHERES NO CONTEXTO DE VULNERABILIDADE SOCIAL",
+                "presenter": "Bhruna Kesya Jorge de Morais e Juliana Biazze Feitosa"
+              },
+              {
+                "title": "VIOLÊNCIA DOMESTICA E DISCUSSÃO DE GÊNERO",
+                "presenter": "Vanessa Pereira Rosa e Profa. Josenice dos Santos Araujo"
+              }
+            ]
+          },
           "teacher": null
         },
         {
@@ -65,7 +97,19 @@
         },
         {
           "period": "Tarde - 14:30",
-          "description": "Apresentação de trabalhos",
+          "description": {
+            "theme": "Gênero, Etnia e Diversidade:",
+            "presentations": [
+              {
+                "title": "GENERO E QUESTÃO SOCIAL",
+                "presenter": "Vanessa Pereira Rosa e Erice Katrinny Soares"
+              },
+              {
+                "title": "NÃO É SOBRE PERVERSÃO SEXUAL É SOBRE EDUCAÇÃO SEXUAL:UMA ANÁLISE CRÍTICA SOBRE O SILENCIAMENTO ESCOLAR",
+                "presenter": "Janainni Silva Nascimento e Mateus Dias Matos"
+              }
+            ]
+          },
           "teacher": null
         },
         {

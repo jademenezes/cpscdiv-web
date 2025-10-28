@@ -1,10 +1,22 @@
 import { BiSolidRightArrow } from 'react-icons/bi';
 
+interface PresentationItem {
+  title: string;
+  presenter: string;
+}
+
+type CourseDescription =
+  | string
+  | {
+      theme: string;
+      presentations: PresentationItem[];
+    };
+
 interface Course {
   period: string;
   opening?: string;
   ending?: string;
-  description: string;
+  description: CourseDescription;
   teacher: string;
 }
 
@@ -32,7 +44,29 @@ const ProgCard = (props: ProgCardProps) => {
               </div>
             ) : null}
             <div className="card-description prog-card-text py-1">
-              {course.description}
+              {typeof course.description === 'string' ? (
+                course.description
+              ) : (
+                <>
+                  <div style={{ fontWeight: 'bold' }}>
+                    {course.description.theme}
+                  </div>
+                  {course.description.presentations.map(
+                    (presentation, presentationIndex) => (
+                      <div key={presentationIndex}>
+                        <ul>
+                          <li>
+                            <p style={{ fontStyle: 'italic' }}>
+                              {presentation.title}
+                            </p>
+                            <p>{presentation.presenter}</p>
+                          </li>
+                        </ul>
+                      </div>
+                    )
+                  )}
+                </>
+              )}
             </div>
             <div className="prog-card-text card-teacher my-1 mb-3">
               {course.teacher}
